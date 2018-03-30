@@ -1,0 +1,84 @@
+#container {
+	clear:right;
+	width: 720px;
+	text-align: justify;
+	background-color: #fff;
+	margin: auto;
+	
+}
+body{
+	background-color: #cccccc;
+	font-family: Verdana;
+	font-size: 11px;
+}
+p:first-letter {
+	color: blue;
+	font-weight: bold;
+	font-size: 38px;
+	font-family: Times New Roman;
+}
+
+#content {
+	text-indent: 10px;
+	padding:0 10px 0 10px;
+	width:500px;
+	height:300px;
+	float: left;
+	background-color: #fff;
+}
+#nav{
+	clear: none;
+	margin:0px 0px 0 0;
+	width:200px;
+	height:300px;
+	float: left;
+	background-color: #e7e7e7;
+}
+#header{
+	text-align:left;
+	clear:none;
+	height:50px;
+	line-height: 50px;
+	text-indent: 40px;
+	background-color: #b0b0b0;
+}
+ul li {
+	padding-top:0px;
+	padding-bottom: 0px;
+	list-style: none;
+	font-size: 12px;
+}
+a:link{
+	color: black;
+	text-decoration:none;
+}
+a:visited{
+	color:black;
+	text-decoration:none;
+}
+a:hover{
+	color:white;
+	background-position: right bottom;
+	font-weight: bold;	
+}
+a:aktive{
+	color:black;
+	font-weight: bold;
+	text-decoration:underline;	
+}
+ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	display: block;
+	width: 200px;
+	height:40px;
+	line-height:40px;
+	color:#00000;
+	text-decoration: none;
+	font-size:12px;
+	background: url(images/rol.gif) no-repeat left bottom;
+	text-indent: 40px;
+}
